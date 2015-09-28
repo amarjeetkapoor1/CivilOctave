@@ -1,0 +1,66 @@
+# Created by Octave 4.0.0, Sun Aug 16 07:51:22 2015 IST <hsrai@rai>
+# name: Number_of_storeys
+# type: scalar
+4
+
+
+# name: Soil_type
+# type: scalar
+1
+
+
+# name: Importance_factor
+# type: scalar
+1
+
+
+# name: Response_reduction_factor
+# type: scalar
+5
+
+
+# name: Zone_factor
+# type: scalar
+0.24
+
+
+# name: Gravity_acceleration
+# type: scalar
+9.81
+
+
+# name: Modes_considered
+# type: scalar
+4
+
+
+# name: Mass
+# type: matrix
+# rows: 4
+# columns: 4
+ 8 0 0 0
+ 0 8 0 0
+ 0 0 4 0
+ 0 0 0 4
+
+
+# name: Height_storey
+# type: matrix
+# rows: 4
+# columns: 1
+ 4
+ 4
+ 4
+ 4
+
+
+# name: Stiffness_storey
+# type: matrix
+# rows: 4
+# columns: 1
+ 1000
+ 800
+ 600
+ 600
+
+
