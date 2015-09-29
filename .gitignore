@@ -22,6 +22,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+sage/**/migrations/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -63,3 +64,5 @@ target/
 *.swp
 *.swo
 *.py~
+sage/**/input.sage
+sage/db.sqlite3
